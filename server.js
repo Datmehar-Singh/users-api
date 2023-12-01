@@ -30,8 +30,9 @@ let jwtOptions = {
     }
 });
 
-
+passport.use(strategy);
 app.use(passport.initialize());
+
 
 
 
